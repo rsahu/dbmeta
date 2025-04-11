@@ -1,0 +1,17 @@
+tables:
+  - name: actor
+    audit: last_update
+  - name: address
+    audit: last_update
+  - name: city
+    audit: last_update
+  - name: country
+    audit: last_update
+  - name: customer
+    audit: last_update
+  - name: film
+    audit: last_update
+  - name: payment
+    audit: last_update
+  - name: staff
+    audit: last_update

@@ -1,0 +1,13 @@
+# service
+relay:
+  apiKey: 1234567890db-a818-42f2-911c-d59888abdc6e1
+
+generator:
+  outputFolder: /tmp/abc
+
+dataSources:
+  - name: sakila
+    url: jdbc:postgresql://localhost:5432/sakila
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
